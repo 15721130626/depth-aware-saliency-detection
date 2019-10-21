@@ -1,0 +1,16 @@
+net: "models/ivp/sigmoidsum1/train_sigmoid_sum.prototxt"
+base_lr: 1e-8
+lr_policy: "step"
+stepsize: 121098
+gamma: 0.1
+iter_size: 32
+display: 100
+average_loss: 1000
+max_iter: 1000000
+momentum: 0.9
+weight_decay: 0.0001
+snapshot: 1000
+snapshot_prefix: "models/ivp/sigmoidsum1/iiau_IntNet_saliency_sigmoidsumen"
+solver_mode: GPU
+test_initialization: false
+random_seed: 42
